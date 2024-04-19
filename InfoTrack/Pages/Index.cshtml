@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "SEO Tester";
+}
+
+<form method="get">
+    <div class="text-center">
+        <h2 class="display-4">Welcome to the SEO tester</h2>
+    </div>
+
+    <p><em>Enter some words to search...</em></p>
+    <input type="text" asp-for="SearchString" id="searchString" />
+    <button class="btn btn-primary">Search</button>
+
+    @if (!string.IsNullOrWhiteSpace(Model.SearchString))
+    {
+        if (Model.HitIndexes == null || Model.HitIndexes.Count == 0)
+        {
+            <p><em>Keywords not found</em></p>
+        }
+        else
+        {
+            <p>Keywords found in results @string.Join(", ", Model.HitIndexes.OrderBy(hi => hi)).</p>
+        }
+    }
+</form>
