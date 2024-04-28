@@ -9,8 +9,12 @@
         <h2 class="display-4">Welcome to the SEO tester</h2>
     </div>
 
-    <p><em>Enter some words to search...</em></p>
+    <p><em>Enter the URL to verify:</em></p>
+    <input type="text" asp-for="ExpectedUrl" id="expectedUrl" />
+
+    <p><em>Enter some words to search:</em></p>
     <input type="text" asp-for="SearchString" id="searchString" />
+
     <button class="btn btn-primary">Search</button>
 
     @if (!string.IsNullOrWhiteSpace(Model.SearchString))
@@ -21,7 +25,11 @@
         }
         else
         {
-            <p>Keywords found in results @string.Join(", ", Model.HitIndexes.OrderBy(hi => hi)).</p>
+            <div class="searchresult">
+                <p>Keywords found in results @string.Join(", ", Model.HitIndexes.OrderBy(hi => hi)).</p>
+            </div>
         }
+
+        <p>Number of tests executed so far: @Model.TestsSoFar</p>
     }
 </form>

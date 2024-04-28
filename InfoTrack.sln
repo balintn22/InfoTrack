@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrack", "InfoTrack\InfoTrack.csproj", "{ECE1A064-34B1-45AC-B991-347EFF11984F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoStat.UI.Mvc", "InfoTrack\SeoStat.UI.Mvc.csproj", "{ECE1A064-34B1-45AC-B991-347EFF11984F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoStat.Domain", "SeoStat.Domain\SeoStat.Domain.csproj", "{A2D4240E-4D61-4BE7-9554-63D25189900C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoStat.SearchConnector.Dummy", "SeoStat.SearchConnector.Dummy\SeoStat.SearchConnector.Dummy.csproj", "{EE20950C-8AFC-443F-B0AB-663B9D6E0AB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoStat.Repo.Dummy", "SeoStat.Repo.Dummy\SeoStat.Repo.Dummy.csproj", "{9610B1BC-149F-42DE-9D31-076677E0D7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoStat.Domain.Tests", "SeoStat.Domain.Tests\SeoStat.Domain.Tests.csproj", "{86DBE480-229F-4FCF-8B85-C827718B6FB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{ECE1A064-34B1-45AC-B991-347EFF11984F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECE1A064-34B1-45AC-B991-347EFF11984F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE1A064-34B1-45AC-B991-347EFF11984F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D4240E-4D61-4BE7-9554-63D25189900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D4240E-4D61-4BE7-9554-63D25189900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D4240E-4D61-4BE7-9554-63D25189900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D4240E-4D61-4BE7-9554-63D25189900C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE20950C-8AFC-443F-B0AB-663B9D6E0AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE20950C-8AFC-443F-B0AB-663B9D6E0AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE20950C-8AFC-443F-B0AB-663B9D6E0AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE20950C-8AFC-443F-B0AB-663B9D6E0AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9610B1BC-149F-42DE-9D31-076677E0D7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9610B1BC-149F-42DE-9D31-076677E0D7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9610B1BC-149F-42DE-9D31-076677E0D7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9610B1BC-149F-42DE-9D31-076677E0D7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

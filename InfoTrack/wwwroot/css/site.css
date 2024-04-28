@@ -20,3 +20,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.searchresult {
+    color: red;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
