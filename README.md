@@ -24,7 +24,13 @@
 
  - The use of ASP.Net middlewares (see error handling)
 
- - OO concepts like classes, interfaces, classes implementing an interface
+ - OO concepts\
+    - classes, interfaces, classes implementing an interface
+    - member visibility
+
+ - dotnet language elements
+    - properties (getters and setters)
+    - lambda exressions
 
  - Minimal, html class-based .css targeting see site.css .searchresult
 
@@ -38,6 +44,11 @@
      - an API
      - a message-based service, using the domain directly, but providing other ways of interacting with its consumers
      - a mobile or a desktop app, or a JVM client using the API or the message based service
+
+ - Unit testing
+   - Using a single unit test method, the use of interface mocks, the structure of a unit test method, verifying method execution and result value.
+   - The use of FluentAssertions to make tests more readable.
+   - Accessing library internal members by a friendly unit test assembly.
 
  # Concepts not demonstrated
   
