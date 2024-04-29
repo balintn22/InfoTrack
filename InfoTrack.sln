@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeoStat.Repo.Dummy", "SeoSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoStat.Domain.Tests", "SeoStat.Domain.Tests\SeoStat.Domain.Tests.csproj", "{86DBE480-229F-4FCF-8B85-C827718B6FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoStat.SearchConnector.Google", "SeoStat.SearchConnector.Google\SeoStat.SearchConnector.Google.csproj", "{4DF00632-DC7A-45FD-84CE-4C223B84E4B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86DBE480-229F-4FCF-8B85-C827718B6FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF00632-DC7A-45FD-84CE-4C223B84E4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF00632-DC7A-45FD-84CE-4C223B84E4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF00632-DC7A-45FD-84CE-4C223B84E4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF00632-DC7A-45FD-84CE-4C223B84E4B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using SeoStat.Domain;
 using SeoStat.Repo.Dummy;
 using SeoStat.SearchConnector.Dummy;
+using SeoStat.SearchConnector.Google;
 using SeoStat.UI.Mvc;
 
 namespace InfoTrack;
@@ -26,7 +27,8 @@ public class Program
             {
                 // Each library provides means to register its DI services. Call them to register those services.
                 // If implementing some for real, switch to those implementations.
-                afBuilder.UseDummySearch();
+                //afBuilder.UseDummySearch();
+                afBuilder.UseGoogleSearch();
                 afBuilder.UseDummyRepo();
                 afBuilder.UseSeoStatDomain();
             });
